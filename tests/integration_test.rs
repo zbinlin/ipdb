@@ -4,7 +4,7 @@ use ipdb::{Ipdb, Language, Fields};
 use std::fs::File;
 
 fn create_reader() -> File {
-    File::open("./tests/assets/test.ipdb").unwrap()
+    File::open("./tests/fixtures/test.ipdb").unwrap()
 }
 
 #[test]
